@@ -1,0 +1,33 @@
+/* Logo */
+header img {
+    border-radius: 8px; /* bordes redondeados */
+}
+
+/* Títulos */
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+/* Hover extra en botones */
+header .btn:hover {
+    background-color: #999999;
+    border-color: #999999;
+}
+
+/* Main: si querés cambiar el max-width */
+main {
+    max-width: 1000px;
+}
+
+/* Footer: texto centrado con un poco de espacio */
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Opcional: ajustar padding en móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+}
